@@ -1,5 +1,5 @@
 Step 1:
-./mvnw rewrite:configure -Ddependencies=org.openrewrite.recipe:rewrite-spring:4.19.2 -DactiveRecipes=org.openrewrite.java.spring.boot2.SpringBoot1To2Migration
+./mvnw org.openrewrite.maven:rewrite-maven-plugin:4.22.1:init -Ddependencies=org.openrewrite.recipe:rewrite-spring:4.19.2 -DactiveRecipes=org.openrewrite.java.spring.boot2.SpringBoot1To2Migration
 
 Step 2:
 
